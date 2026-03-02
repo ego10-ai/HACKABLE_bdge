@@ -28,6 +28,13 @@ The board is designed to be compatible with standard MicroPython, using the same
 
   - Standard 4-pin Qwiic / STEMMA QT port (I2C) for easily plugging in external sensors.
 
+# Schemetic
+---
+![click here](https://image-pro.easyeda.com/pullimages/6bea0def080f4f468d6660067533a47e.webp)
+
+# BOM file 
+---
+![click here](https://github.com/ego10-ai/HACKABLE_bdge/blob/main/BOM_Board1_Schematic1_2026-02-28.xlsx)
 ## Contributing
 Contributions are welcome! Feel free to:
 
