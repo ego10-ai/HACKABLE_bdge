@@ -51,6 +51,11 @@ The board is designed to be compatible with standard MicroPython, using the same
 # BOM file 
 ---
 ![click here](https://github.com/ego10-ai/HACKABLE_bdge/blob/main/BOM_Board1_Schematic1_2026-02-28.xlsx)
+
+## Firmware Compatibility
+---
+The HACKable bdge is designed to run MonaOS, a custom build of MicroPython optimized for conference badges. You can flash the board by holding the BOOTSEL button, pressing the RESET button, and dragging a .uf2 firmware file onto the mass storage drive. Apps and scripts can be loaded simply by dropping Python files into the /system/apps directory over USB.
+
 ## Contributing
 Contributions are welcome! Feel free to:
 
