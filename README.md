@@ -35,6 +35,9 @@ The board is designed to be compatible with standard MicroPython, using the same
   - Ambient light sensor (PT19-21B) for automatic screen brightness adjustments.
 
   - Standard 4-pin Qwiic / STEMMA QT port (I2C) for easily plugging in external sensors.
+  - BadUSB Switch: A physical hardware slide switch dedicated to toggling HID payload injection modes.
+  - Expansion Ports: * Standard 4-pin Qwiic / STEMMA QT port (I2C) for external sensors.
+  - Standard v1.69bis SAO (Shitty Add-On) 2x3 header (I2C + 3.3V) for conference bling and custom add-on boards.
 
 # Schemetic
 ---
