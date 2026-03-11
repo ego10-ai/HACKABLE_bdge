@@ -1,5 +1,8 @@
 # HACKABLE_bdge
 ---
+<img width="1120" height="959" alt="v2 render back no bg" src="https://github.com/user-attachments/assets/bf4cc576-1543-4e3e-9498-b6adff5064cf" />
+
+
 The HACKable badge is an inspired by GitHub Universe 2025 badge but a fully custom, programmable electronic badge built around the Raspberry Pi RP2350B microcontroller. It is designed for hardware enthusiasts, developers, and hackers who want a portable, battery-powered platform with built-in wireless capabilities and a screen.
 
 I Will write a firmwere soon till then you can use [https://badger.github.io/] or You can write your own code, play games, and connect to Wi-Fi.
@@ -18,6 +21,11 @@ The board is designed to be compatible with standard MicroPython, using the same
   - Onboard battery charging and protection circuitry.
   - High-efficiency buck converter to provide stable 3.3V system power.
 - Timekeeping: PCF85063A Real-Time Clock (RTC) with a dedicated 32.768kHz crystal.
+- 
+- Wireless & RF (V2 Upgrades)
+  - Wi-Fi & Bluetooth: Murata Type 1YN (CYW43439) module with a U.FL connector for external 2.4GHz antennas.
+  - Sub-GHz Radio: RFM69HCW transceiver module mapped to the hardware SPI bus, featuring a dedicated U.FL connector for 433MHz/915MHz antennas.
+  - Infrared: TSOP38238 IR Receiver (with hardware noise filtering) for capturing signals, and an IR11-21C blaster driven by a BSS138 MOSFET for long-range transmission.
   
 - Inputs & Expansion:
   - 5 user navigation buttons (A, B, C, Up, Down).
@@ -30,8 +38,13 @@ The board is designed to be compatible with standard MicroPython, using the same
 
 # Schemetic
 ---
+## V1
+---
 ![click here](https://image-pro.easyeda.com/pullimages/6bea0def080f4f468d6660067533a47e.webp)
 
+## V2
+---
+![click here](https://image-pro.easyeda.com/pullimages/5a3d070292074ad3b3fed5c777fde6f1.webp)
 # BOM file 
 ---
 ![click here](https://github.com/ego10-ai/HACKABLE_bdge/blob/main/BOM_Board1_Schematic1_2026-02-28.xlsx)
